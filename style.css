@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Establece la altura del cuerpo al 100% de la altura visible del dispositivo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.principal{
+    background-image: url(fondo.png);
+    background-repeat: no-repeat;
+    background-size:100% 600px;
+    height: 600px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    text-align:center;
+    font-size: 24px; /* Tamaño de fuente del título */
+    padding: 100px; /* Espaciado interno alrededor del título */
+}
